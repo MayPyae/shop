@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Pyidaungsu,Zawgyi-One,consolas;
+}
+
+
+#promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+.wavy {
+    position: relative;
+}
+.p {
+    position: relative;
+    display: inline-block;
+    color: rgb(218, 10, 10);
+    font-size: 2em;
+    font-weight: 100%;
+
+    animation: animate1 1s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate1 {
+    0% {
+        transform: translateY(0px);
+    }
+    30% {
+        transform: translateY(-30px);
+    }
+    40%,
+    100% {
+        transform: translateY(0px);
+    }
+}
