@@ -10,17 +10,17 @@
                             <span>All departments</span>
                         </div>
                         <ul>
-                            <li><a href="#">Fresh Meat</a></li>
-                            <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
-                            <li><a href="#">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
-                            <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
-                            <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
+                            <li><a href="#" id="itemlangj">Shoes</a></li>
+                            <li><a href="#" id="itemlangk">Heads</a></li>
+                            <li><a href="#"id="itemlangl">Bags</a></li>
+                            <li><a href="#"id="itemlangz">Men</a></li>
+                            <li><a href="#"id="itemlangx">Women</a></li>
+                            <li><a href="#"id="itemlangc">T-shirt</a></li>
+                            <li><a href="#"id="itemlangv">Shoes</a></li>
+                            <li><a href="#"id="itemlangb">Heads</a></li>
+                            <li><a href="#"id="itemlangn">Bags</a></li>
+                            <li><a href="#"id="itemlangm">Men</a></li>
+                            <li><a href="#"id="itemlangqq">Women</a></li>
                         </ul>
                     </div>
                 </div>
@@ -51,22 +51,10 @@
 
         </div>
     </section>
-    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
-          <img src="{{asset('img/breadcrumb.jpg')}}" id="contactimg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="breadcrumb__text">
-                        <h2>Checkout</h2>
-                        <div class="breadcrumb__option">
-                            <a href="{{route('user.index')}}">Home</a>
-                            <span>Checkout</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="breadcrumb-section set-bg justify-content-center">
+        <img src="{{asset('img/shoes/qqq.png')}}" >
+
+  </section>
     <section class="checkout spad">
         <div class="container">
             <div class="row">
@@ -126,47 +114,17 @@
 
 
 
-                            <div class="checkout__input">
+                            {{-- <div class="checkout__input">
                                 <p>Order notes<span>*</span></p>
                                 <input type="text"
                                     placeholder="Notes about your order.">
-                            </div>
+                            </div> --}}
                         </div>
-                        {{-- <div class="col-lg-4 col-md-6">
-                            <div class="checkout__order">
-                                <h4>Your Order</h4>
 
 
-                                    <div class="shoping__cart__table">
-
-                                        <table>
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th >Products</th>
-
-                                                    <th>Total</th>
-
-                                                </tr>
-                                            </thead>
-                                            <tbody id="order">
+                               <button type="submit" class="site-btn col-12 m-2 ">Comfirm ORDER</button>
 
 
-
-
-                                            </tbody>
-                                        </table>
-                                    </div>
-
-
-
-                                    <div class="checkout__order__subtotal">Alltotal <span id="alltotal"></span></div>
-
-
-
-                                <button type="submit" class="site-btn">Comfirm ORDER</button>
-                            </div>
-                        </div> --}}
 
                     </div>
                 </form>

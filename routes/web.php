@@ -21,6 +21,7 @@ Route::group(['prefix' => 'user','namespace'=>'user',"as"=>'user.'], function ()
     Route::get('/checkout','CheckoutController')->name("checkout");
      Route::get('/shopping','ShoppingController')->name("shopping");
      Route::get('/promo','PromoController')->name("promo");
+     Route::get('/view','ViewController')->name("view");
     //   Route::get('/promotion','PromotionController')->name("promotion");
 
 });

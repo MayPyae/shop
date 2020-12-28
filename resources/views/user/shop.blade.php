@@ -81,16 +81,17 @@
                         <div class="sidebar__item">
                             <h4>Department</h4>
                             <ul>
-                                <li><a href="#">Fresh Meat</a></li>
-                                <li><a href="#">Vegetables</a></li>
-                                <li><a href="#">Fruit & Nut Gifts</a></li>
-                                <li><a href="#">Fresh Berries</a></li>
-                                <li><a href="#">Ocean Foods</a></li>
-                                <li><a href="#">Butter & Eggs</a></li>
-                                <li><a href="#">Fastfood</a></li>
-                                <li><a href="#">Fresh Onion</a></li>
-                                <li><a href="#">Papayaya & Crisps</a></li>
-                                <li><a href="#">Oatmeal</a></li>
+                                <li><a href="#" id="itemlangj">Shoes</a></li>
+                                <li><a href="#" id="itemlangk">Heads</a></li>
+                                <li><a href="#"id="itemlangl">Bags</a></li>
+                                <li><a href="#"id="itemlangz">Men</a></li>
+                                <li><a href="#"id="itemlangx">Women</a></li>
+                                <li><a href="#"id="itemlangc">T-shirt</a></li>
+                                <li><a href="#"id="itemlangv">Shoes</a></li>
+                                <li><a href="#"id="itemlangb">Heads</a></li>
+                                <li><a href="#"id="itemlangn">Bags</a></li>
+                                <li><a href="#"id="itemlangm">Men</a></li>
+                                <li><a href="#"id="itemlangqq">Women</a></li>
                             </ul>
                         </div>
                         <div class="sidebar__item">

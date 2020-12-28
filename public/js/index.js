@@ -43,30 +43,18 @@ function loadData() {
             );
             var qty = document.createElement("input");
             qty.classList.add("input");
-            qty.type = "number";
+
+            qty.type = "text";
+            qty.style ="width:15px";
             qty.value = cursor.value.quantity;
-            qty.setAttribute("onchange", "changeQuantity(" + +")");
+
             qty.placeholder = "Quantity";
 
             row.insertCell(3).appendChild(qty);
-            // var btn = document.createElement("button");
-            // btn.classList.add("btn");
-            // btn.classList.add("btn-success");
-            // btn.innerHTML = "<span class='fa fa-plus'></span>";
-
-            // btn.setAttribute("onclick", "multiply()");
-            // row.insertCell(4).appendChild(btn);
-
-            // var btn = document.createElement("button");
-            // btn.classList.add("btn");
-            // btn.classList.add("btn-success");
-            // btn.innerHTML = "<span class='fa fa-minus'></span>";
-            // btn.setAttribute("onclick", "multiply()");
-            // row.insertCell(5).appendChild(btn);
 
             var total = document.createElement("p");
             total.classList.add("text");
-            total.innerHTML = cursor.value.quantity * cursor.value.price;
+            total.innerHTML =   qty.value * cursor.value.price;
 
             row.insertCell(4).appendChild(total);
             var btn = document.createElement("button");
@@ -76,6 +64,27 @@ function loadData() {
             btn.setAttribute("onclick", "removeItem(" + cursor.key + ")");
             row.insertCell(5).appendChild(btn);
             alltotal.innerHTML=  `(MMK:${(cursor.value.quantity * cursor.value.price)})`;
+
+            // var btn = document.createElement("button");
+            // btn.classList.add("btn");
+            // btn.classList.add("btn-success");
+            // btn.innerHTML = "<span class='fa fa-plus p-2' id='addnum'>1</span>";
+
+            // btn.setAttribute("onclick", "calculate(1)");
+            // row.insertCell(6).appendChild(btn);
+
+            // var qty = document.createElement("p");
+            // qty.classList.add("text");
+            // qty.innerHTML = ;
+            // row.insertCell(7).appendChild(qty);
+
+            // var btn = document.createElement("button");
+            // btn.classList.add("btn");
+            // btn.classList.add("btn-success");
+            // btn.innerHTML = "<span class='fa fa-minus' id='subnum'></span>";
+            // btn.setAttribute("onclick", "sub(2)");
+            // row.insertCell(7).appendChild(btn);
+
             cc++;
             console.log(cursor.value.name);
             cursor.continue();
@@ -88,3 +97,11 @@ function removeItem(key) {
     os.delete(key);
     location.reload();
 }
+// calculate();
+// function calculate(i){
+
+//     if(i=1){
+//         addnum.value++;
+//     }
+//     console.log( addnum);
+// }

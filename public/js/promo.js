@@ -1,8 +1,8 @@
 var promos = [
     {
         id: 1,
-        name: "Beef / အမဲသား",
-        price: 3000,
+
+        price: 210000,
         quantity: 0,
         discount: 0,
         total: function () {
@@ -11,12 +11,12 @@ var promos = [
                 (this.discount / 100) * (this.quantity * this.price)
             );
         },
-        image: "/img/featured/feature-10.jpg",
+        image: "/img/shoes/black.png",
     },
     {
         id: 2,
-        name: "Banana / ငွက္ေပ်ာသီး",
-        price: 2000,
+
+        price: 210000,
         quantity: 0,
         discount: 0,
         total: function () {
@@ -25,13 +25,12 @@ var promos = [
                 (this.discount / 100) * (this.quantity * this.price)
             );
         },
-        image: "/img/featured/feature-2.jpg",
+        image: "/img/shoes/blue.png",
     },
     {
         id: 3,
-        name: "Guava / မာလကာသီး",
-        image: "/img/featured/feature-3.jpg",
-        price: 1000,
+
+        price: 210000,
         quantity: 0,
         discount: 0,
         total: function () {
@@ -40,12 +39,12 @@ var promos = [
                 (this.discount / 100) * (this.quantity * this.price)
             );
         },
+        image: "/img/shoes/skyblue.png",
     },
     {
         id: 4,
-        name: "Orange Juice/ လိမ္ေမာ္ရည္",
-        image: "/img/product/product-11.jpg",
-        price: 2000,
+
+        price: 210000,
         quantity: 0,
         discount: 0,
         total: function () {
@@ -54,27 +53,13 @@ var promos = [
                 (this.discount / 100) * (this.quantity * this.price)
             );
         },
+        image: "/img/shoes/bag1.png",
     },
     {
         id: 5,
-        name: "Water-Melon / ဖရဲသီး",
 
-        image: "/img/featured/feature-4.jpg",
-        price: 3000,
-        quantity: 0,
-        discount: 0,
-        total: function () {
-            return (
-                this.quantity * this.price -
-                (this.discount / 100) * (this.quantity * 3000)
-            );
-        },
-    },
-    {
-        id: 6,
-        name: "Hmburger / ဟမ္ဘာဂါ္",
-        price: 2000,
-        image: "/img/featured/feature-6.jpg",
+
+        price: 210000,
         quantity: 0,
         discount: 0,
         total: function () {
@@ -83,12 +68,24 @@ var promos = [
                 (this.discount / 100) * (this.quantity * this.price)
             );
         },
+        image: "/img/shoes/bag.png",
+    },
+    {
+        price: 210000,
+        quantity: 0,
+        discount: 0,
+        total: function () {
+            return (
+                this.quantity * this.price -
+                (this.discount / 100) * (this.quantity * this.price)
+            );
+        },
+        image: "/img/shoes/e.jpg",
     },
     {
         id: 7,
-        name: "Mango / သရက္သီး",
-        price: 1000,
-        image: "/img/featured/feature-7.jpg",
+
+        price: 210000,
         quantity: 0,
         discount: 0,
         total: function () {
@@ -97,12 +94,12 @@ var promos = [
                 (this.discount / 100) * (this.quantity * this.price)
             );
         },
+        image: "/img/shoes/a.png",
     },
     {
         id: 8,
-        name: "Apple / ပန္းသီး",
-        price: 1000,
-        image: "/img/featured/feature-8.jpg",
+
+        price: 210000,
         quantity: 0,
         discount: 0,
         total: function () {
@@ -111,12 +108,12 @@ var promos = [
                 (this.discount / 100) * (this.quantity * this.price)
             );
         },
+        image: "/img/shoes/d.jpg",
     },
     {
         id: 9,
-        name: "Raisin /စပ်စ္ေျခာက္",
-        price: 3000,
-        image: "/img/product/product-9.jpg",
+
+        price: 210000,
         quantity: 0,
         discount: 0,
         total: function () {
@@ -125,6 +122,7 @@ var promos = [
                 (this.discount / 100) * (this.quantity * this.price)
             );
         },
+        image: "/img/shoes/c.png",
     },
 ];
 
@@ -165,7 +163,6 @@ function loadData(coupon) {
         <div class="card m-lg-4 " style="width: 20rem;">
             <img src="${v.image}" class="card-img-top" >
             <div class="card-body">
-                <p class="card-text">${v.name}</p>
 
             <p class="card-text">MMK: ${v.price}</p>
         </div>

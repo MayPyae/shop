@@ -81,11 +81,12 @@ p {
     color: #6f6f6f;
     font-weight: 400;
     line-height: 26px;
-    margin: 0 0 15px 0;
+    margin: 0 0 3px 0;
 }
 
 img {
     max-width: 100%;
+
 }
 
 input:focus,
@@ -130,7 +131,7 @@ ol {
     right: 0;
     height: 4px;
     width: 80px;
-    background: #7fad39;
+    background: #000000;
     content: "";
     margin: 0 auto;
 }
@@ -168,7 +169,7 @@ ol {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 700;
-    background: #7fad39;
+    background: #0000;
     letter-spacing: 2px;
 }
 
@@ -179,7 +180,7 @@ ol {
     text-transform: uppercase;
     display: inline-block;
     padding: 13px 30px 12px;
-    background: #7fad39;
+    background: #000000;
     border: none;
 }
 
@@ -588,7 +589,7 @@ ol {
 }
 
 .hero__categories__all {
-    background: #7fad39;
+    background: #000000;
     position: relative;
     padding: 10px 25px 10px 40px;
     cursor: pointer;
@@ -701,7 +702,7 @@ ol {
 
 .hero__search__phone__icon {
     font-size: 18px;
-    color: #7fad39;
+    color: #000000;
     height: 50px;
     width: 50px;
     background: #f5f5f5;
@@ -1256,7 +1257,7 @@ ol {
 -----------------------*/
 
 .product {
-    padding-top: 80px;
+    padding-top: 10px;
     padding-bottom: 80px;
 }
 
@@ -2031,14 +2032,12 @@ ol {
     padding: 15px 30px 11px;
     font-size: 12px;
     letter-spacing: 4px;
-    background: #6f6f6f;
+    background:#000000;
 }
 
 .shoping__checkout {
     background: #f5f5f5;
-    padding: 30px;
-    padding-top: 20px;
-    margin-top: 50px;
+
 }
 
 .shoping__checkout h5 {
@@ -2774,7 +2773,7 @@ ol {
 
 .contact__widget span {
     font-size: 36px;
-    color: #7fad39;
+    color: #000000;
 }
 
 .contact__widget h4 {
@@ -2813,7 +2812,7 @@ ol {
 
 .map .map-inside i {
     font-size: 48px;
-    color: #7fad39;
+    color: #000000;
     position: absolute;
     bottom: -75px;
     left: 50%;
@@ -3487,10 +3486,9 @@ ol {
     height: 410px;
 }
 #contactimg {
-    position: absolute;
-    width: 200%;
-    height: 200px;
-    padding-top: 20px;
+
+
+
 }
 #grape {
     height: 275px;

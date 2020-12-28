@@ -1,65 +1,64 @@
 var items = [
     {
         id: 1,
-        name: "Beef / အမဲသား",
-        price: 3000,
-        image: "/img/featured/feature-10.jpg",
+
+        price:270000,
+        image: "/img/shoes/skyblue.png",
         quantity: 1,
         discount: 0,
     },
     {
         id: 2,
-        name: "Banana / ငွက္ေပ်ာသီး",
-        price: 2000,
-        image: "/img/featured/feature-2.jpg",
+
+        price: 210000,
+        image: "/img/shoes/blue.png",
         quantity: 1,
         discount: 0,
     },
     {
         id: 3,
-        name: "Guava / မာလကာသီး",
-        price: 1000,
-        image: "/img/featured/feature-3.jpg",
+
+        price: 210000,
+        image: "/img/shoes/black.png",
         quantity: 1,
         discount: 0,
     },
     {
         id: 4,
-        name: "Fired Chicken / ျကက္ေျကာ္",
-        price: 2000,
-        image: "/img/latest-product/lp-3.jpg",
+        price: 210000,
+        image: "/img/shoes/green1.png",
         quantity: 1,
         discount: 0,
     },
     {
         id: 5,
-        name: "Water-Melon / ဖရဲသီး",
-        price: 3000,
-        image: "/img/featured/feature-4.jpg",
+
+        price: 210000,
+        image: "/img/shoes/c.png",
         quantity: 1,
         discount: 0,
     },
     {
         id: 6,
-        name: "Hmburger / ဟမ္ဘာဂါ္",
-        price: 2000,
-        image: "/img/featured/feature-6.jpg",
+
+        price: 210000,
+        image: "/img/shoes/a.png",
         quantity: 1,
         discount: 0,
     },
     {
         id: 7,
-        name: "Mango / သရက္သီး",
-        price: 1000,
-        image: "/img/featured/feature-7.jpg",
+
+        price: 210000,
+        image: "/img/shoes/d.jpg",
         quantity: 1,
         discount: 0,
     },
     {
         id: 8,
-        name: "Apple / ပန္းသီး",
-        price: 1000,
-        image: "/img/featured/feature-8.jpg",
+
+        price: 210000,
+        image: "/img/shoes/f.jpg",
         quantity: 1,
         discount: 0,
 
@@ -95,9 +94,7 @@ function loadData(product) {
             "</ul>" +
             "</div>" +
             '<div class="featured__item__text">' +
-            '<h6 id="itemlang">' +
-            item.name +
-            "</h6>" +
+
             "<h5>" +
             item.price +
             "</h5>" +
@@ -128,6 +125,6 @@ function setCount() {
     };
 }
 function addToShow() {
-    alert("Hello");
+    window.open("view");
 }
 

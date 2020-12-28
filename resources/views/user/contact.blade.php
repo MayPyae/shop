@@ -11,17 +11,17 @@
                             <span>All departments</span>
                         </div>
                         <ul>
-                            <li><a href="#">Fresh Meat</a></li>
-                            <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
-                            <li><a href="#">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
-                            <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
-                            <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
+                            <li><a href="#" id="itemlangj">Shoes</a></li>
+                                <li><a href="#" id="itemlangk">Heads</a></li>
+                                <li><a href="#"id="itemlangl">Bags</a></li>
+                                <li><a href="#"id="itemlangz">Men</a></li>
+                                <li><a href="#"id="itemlangx">Women</a></li>
+                                <li><a href="#"id="itemlangc">T-shirt</a></li>
+                                <li><a href="#"id="itemlangv">Shoes</a></li>
+                                <li><a href="#"id="itemlangb">Heads</a></li>
+                                <li><a href="#"id="itemlangn">Bags</a></li>
+                                <li><a href="#"id="itemlangm">Men</a></li>
+                                <li><a href="#"id="itemlangqq">Women</a></li>
                         </ul>
                     </div>
                 </div>
@@ -54,22 +54,10 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" style="background-image: url(../img/breadcrumb.jpg);">
-        <img src="{{asset('img/breadcrumb.jpg')}}" id="contactimg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="breadcrumb__text">
-                        <h2>Contact Us</h2>
-                        <div class="breadcrumb__option">
-                            <a href="{{route('user.index')}}">Home</a>
-                            <span>Contact Us</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="breadcrumb-section set-bg justify-content-center">
+        <img src="{{asset('img/shoes/qqq.png')}}" >
+
+  </section>
 
 
 

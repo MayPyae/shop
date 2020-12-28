@@ -5,8 +5,18 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="{{route('user.index')}}"> <img src="{{asset('img/logo1.png')}}" style="height:50px"></a>
+  <a class="navbar-brand" href="{{route('user.index')}}"> <img src="{{asset('img/shoes/logo1.png')}}" style="height:50px"></a>
+  <div class="col-lg-2 p-0">
 
+
+    <a href="{{route('user.shopping')}}" class="btn btn-outline-dark" >
+        <span class="fa fa-shopping-cart"></span> <span class="badge badge-light" id="countText">0 </span>
+
+    </a>
+
+
+
+</div>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="navlang">
@@ -32,7 +42,7 @@
                 <img src="{{asset('img/flag.png')}}" style="width:50px">
                 <form id="language">
                                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                                        <label class="btn btn-success ">
+                                                        <label class="btn btn-dark ">
                                                             <input
                                                             type="radio"
                                                             value="mm"
@@ -43,7 +53,7 @@
                                                             />
                                                             MM
                                                         </label>
-                                                        <label class="btn btn-success ">
+                                                        <label class="btn btn-dark ">
                                                             <input
                                                             type="radio"
                                                             value="en"
@@ -56,17 +66,7 @@
                                     </div>
                                 </form>
             </form>
-                <div class="col-lg-2 mt-1">
 
-
-                    <a href="{{route('user.shopping')}}" class="btn btn-outline-success d-flex pr-5 w-50">
-                        <span class="fa fa-shopping-cart"></span> <span class="badge badge-light" id="countText">0</span>
-
-                    </a>
-
-
-
-                </div>
 
         </div>
     </div>
